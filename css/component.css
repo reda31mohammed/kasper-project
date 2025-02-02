@@ -1,0 +1,55 @@
+/* start component */
+.main-heading {
+  text-align: center;
+}
+.main-heading h2 {
+  font-weight: normal;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 70px;
+}
+.main-heading h2::before {
+  position: absolute;
+  content: "";
+  background-color: #333;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 1.5px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.main-heading h2::after {
+  content: "";
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  border: 2px solid #333;
+  bottom: -38px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main-heading p {
+  width: 550px;
+  max-width: 100%;
+  text-align: center;
+  line-height: 2;
+  font-size: 14px;
+  margin: 0 auto 100px;
+  color: var(--p-main-color);
+}
+/* end component */
